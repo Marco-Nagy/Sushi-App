@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextStyle2">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/calibri</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">66.5sp</item>
+        <item name="android:lineSpacingMultiplier">0.34</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="TextStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/calibri</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">66.5sp</item>
+        <item name="android:lineSpacingMultiplier">0.34</item>
+        <item name="android:textColor">@color/light_orange</item>
+    </style>
+</resources>
