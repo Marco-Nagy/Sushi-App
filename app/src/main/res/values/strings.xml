@@ -1,15 +1,18 @@
 <resources>
-    <string name="app_name">Sushi App</string>
+    <string name="app_name" translatable="false">Sushi App</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="password" translatable="false">Password</string>
     <string name="or">OR</string>
     <string name="don_t_have_an_account_register">Don’t have an account, Register?</string>
     <string name="don_t_have_an_account">Don’t have an account,</string>
-    <string name="register">Register?</string>
-    <string name="phone_number">Phone Number</string>
+    <string name="register" translatable="false">Register</string>
+    <string name="is_register" translatable="false">Register?</string>
+    <string name="phone_number" translatable="false">Phone Number</string>
     <string name="already_have_an_account">Already have an account,</string>
-    <string name="sign_in">Sign in?</string>
-    <string name="e_mail">E-Mail</string>
+    <string name="sign_in" translatable="false">Sign in?</string>
+    <string name="e_mail" translatable="false">E-Mail</string>
+    <string name="sign_in_now" translatable="false">Sign In Now</string>
+    <string name="register_now">Register Now</string>
 </resources>
