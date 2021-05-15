@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none"
+      android:menuCategory="container"
+        >
+        <item
+            android:id="@+id/home_item"
+            android:icon="@drawable/home"
+            android:title="@string/home"
+            app:showAsAction="collapseActionView" />
+
+        <item
+            android:id="@+id/order_item"
+            android:icon="@drawable/confirm_order"
+            android:title="@string/order"
+            app:showAsAction="collapseActionView" />
+
+        <item
+            android:id="@+id/menu_item"
+            android:icon="@drawable/menu"
+            android:title="@string/menu" />
+        <item
+            android:id="@+id/Restaurant_item"
+            android:icon="@drawable/restaurant"
+            android:title="@string/restaurant" />
+
+        <item
+            android:id="@+id/favorites_item"
+            android:icon="@drawable/favorites"
+            android:title="@string/favorites" />
+
+        <item
+            android:id="@+id/myCart_item"
+            android:icon="@drawable/my_cart"
+            android:title="@string/my_cart" />
+
+        <item
+            android:id="@+id/myAccount_item"
+            android:icon="@drawable/account"
+            android:title="@string/my_account" />
+
+        <item
+            android:id="@+id/aboutUs_item"
+            android:icon="@drawable/about_us"
+            android:title="@string/about_us" />
+
+        <item
+            android:id="@+id/contactUs_item"
+            android:icon="@drawable/contact_us"
+            android:title="@string/contact_us" />
+
+        <item
+            android:id="@+id/terms_item"
+            android:icon="@drawable/terms_and_conditions"
+            android:title="@string/terms_and_conditions" />
+    </group>
+
+</menu>

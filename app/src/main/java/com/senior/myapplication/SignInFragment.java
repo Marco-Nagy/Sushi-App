@@ -43,7 +43,8 @@ public class SignInFragment extends Fragment {
         binding.signInBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                navController.navigate(R.id.action_signInFragment_to_mainFragment);
+                navController.navigate(R.id.action_signInFragment_to_menuActivity);
+
             }
         });
     }

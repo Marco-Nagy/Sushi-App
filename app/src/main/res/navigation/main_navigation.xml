@@ -24,8 +24,8 @@
         tools:layout="@layout/fragment_sign_in" >
 
         <action
-            android:id="@+id/action_signInFragment_to_mainFragment"
-            app:destination="@id/mainFragment" />
+            android:id="@+id/action_signInFragment_to_menuActivity"
+            app:destination="@id/menuActivity" />
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
@@ -37,11 +37,6 @@
             app:destination="@id/signInFragment" />
     </fragment>
     <fragment
-        android:id="@+id/mainFragment"
-        android:name="com.senior.myapplication.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
-    <fragment
         android:id="@+id/splashFragment"
         android:name="com.senior.myapplication.SplashFragment"
         android:label="fragment_splash"
@@ -50,4 +45,10 @@
             android:id="@+id/action_splashFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
     </fragment>
+    <activity
+        android:id="@+id/menuActivity"
+        android:name="com.senior.myapplication.MenuActivity"
+        android:label="MenuActivity"
+        tools:layout="@layout/activity_menu"/>
+
 </navigation>

@@ -15,4 +15,16 @@
     <string name="e_mail" translatable="false">E-Mail</string>
     <string name="sign_in_now" translatable="false">Sign In Now</string>
     <string name="register_now">Register Now</string>
+    <string name="home">Home</string>
+    <string name="order">Order</string>
+    <string name="menu">Menu</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="favorites">Favorites</string>
+    <string name="my_cart">My Cart</string>
+    <string name="my_account">My Account</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
