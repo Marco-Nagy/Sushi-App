@@ -1,4 +1,4 @@
-package com.senior.myapplication;
+package com.senior.sushiapp;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
-import com.senior.myapplication.databinding.FragmentOrderBinding;
+import com.senior.sushiapp.databinding.FragmentOrderBinding;
 
 
 public class OrderFragment extends Fragment {

@@ -1,4 +1,4 @@
-package com.senior.myapplication;
+package com.senior.sushiapp;
 
 import org.junit.Test;
 

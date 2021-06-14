@@ -1,4 +1,4 @@
-package com.senior.myapplication;
+package com.senior.sushiapp;
 
 import android.os.Bundle;
 
@@ -9,7 +9,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 
-import com.senior.myapplication.databinding.ActivityMenuBinding;
+import com.senior.sushiapp.databinding.ActivityMenuBinding;
 
 public class MenuActivity extends AppCompatActivity {
     ActivityMenuBinding binding;

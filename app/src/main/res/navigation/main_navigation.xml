@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.senior.myapplication.LoginFragment"
+        android:name="com.senior.sushiapp.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.senior.myapplication.SignInFragment"
+        android:name="com.senior.sushiapp.SignInFragment"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in" >
 
@@ -29,7 +29,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.senior.myapplication.RegisterFragment"
+        android:name="com.senior.sushiapp.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
@@ -38,7 +38,7 @@
     </fragment>
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.senior.myapplication.SplashFragment"
+        android:name="com.senior.sushiapp.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -47,7 +47,7 @@
     </fragment>
     <activity
         android:id="@+id/menuActivity"
-        android:name="com.senior.myapplication.MenuActivity"
+        android:name="com.senior.sushiapp.MenuActivity"
         android:label="MenuActivity"
         tools:layout="@layout/activity_menu"/>
 

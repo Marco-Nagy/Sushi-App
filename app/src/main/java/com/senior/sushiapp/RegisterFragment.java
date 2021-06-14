@@ -1,4 +1,4 @@
-package com.senior.myapplication;
+package com.senior.sushiapp;
 
 import android.os.Bundle;
 
@@ -13,7 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.senior.myapplication.databinding.FragmentRegisterBinding;
+import com.senior.sushiapp.databinding.FragmentRegisterBinding;
 
 
 public class RegisterFragment extends Fragment {

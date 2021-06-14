@@ -1,6 +1,5 @@
-package com.senior.myapplication;
+package com.senior.sushiapp;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -17,9 +16,7 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
-import com.senior.myapplication.databinding.FragmentSplashBinding;
-
-import java.util.Objects;
+import com.senior.sushiapp.databinding.FragmentSplashBinding;
 
 
 public class SplashFragment extends Fragment {
