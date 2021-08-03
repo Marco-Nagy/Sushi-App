@@ -13,7 +13,7 @@
         android:orientation="vertical"
         android:background="@color/white"
         android:weightSum="3"
-        tools:context=".RegisterFragment">
+        tools:context=".ui.RegisterFragment">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

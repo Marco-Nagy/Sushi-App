@@ -6,7 +6,7 @@
     app:startDestination="@id/home_item">
     <fragment
         android:id="@+id/home_item"
-        android:name="com.senior.sushiapp.HomeFragment"
+        android:name="com.senior.sushiapp.ui.HomeFragment"
         android:label="@string/home"
         tools:layout="@layout/fragment_home">
         <action
@@ -16,9 +16,14 @@
 
     <fragment
         android:id="@+id/order_item"
-        android:name="com.senior.sushiapp.OrderFragment"
+        android:name="com.senior.sushiapp.ui.OrderFragment"
         android:label="@string/order"
         tools:layout="@layout/fragment_order">
     </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.senior.sushiapp.ui.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
 
 </navigation>

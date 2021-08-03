@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:weightSum="3"
-        tools:context=".HomeFragment">
+        tools:context=".ui.HomeFragment">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
             android:layout_height="0dp"

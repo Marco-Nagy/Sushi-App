@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SushiApp">
-        <activity android:name="com.senior.sushiapp.MenuActivity">
+        <activity android:name="com.senior.sushiapp.ui.MenuActivity">
 
         </activity>
-        <activity android:name="com.senior.sushiapp.MainActivity">
+        <activity android:name="com.senior.sushiapp.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
